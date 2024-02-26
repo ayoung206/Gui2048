@@ -1,0 +1,2 @@
+1. In Part1, GameTileFactory.getTitle(int value) casts the subclasses of GameTile to GameTile so that we can still use them as a GameTile with their own characteristics which found in their own instance. Polymorphism conceptually applies here because we are using various kinds of GameTile which all are still used as one type: GameTile. For Dynamic Binding, as we cast the subclasses of GameTIle (returning those subclasses as type of GameTile), their actual instances will be determined at run-time, which is indeed Dynamic Binding.
+2.
