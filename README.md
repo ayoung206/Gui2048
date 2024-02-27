@@ -8,6 +8,7 @@
 - Every turn, a new tile will randomly appear in an empty spot on the board with a value of 2 (except at the beginning, when 2 random tiles get values of 2). Tiles will slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid.
 - If two tiles of the same number collide while moving, they will merge into a tile with a total value of the two tiles that collide. For example, if two tiles of value 8 slide into one another the resulting tile will have a value of 16. The resulting tile cannot merge with another tile again in the same move.
 
+## Description
 - `GameTile`: hold the visual objects that make up a tile.
 
 - `makeGrid()`: populates the grid with `GameTile` objects.
